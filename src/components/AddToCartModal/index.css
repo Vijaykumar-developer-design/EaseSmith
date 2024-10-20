@@ -29,7 +29,6 @@
   padding: 5px;
   width: 120px;
   border-radius: 4px;
-  opacity: 0px;
   background-color: white;
   color: red;
   font-family: Poppins;
@@ -48,7 +47,6 @@
   padding: 5px;
   min-width: 120px;
   border-radius: 4px;
-  opacity: 0px;
   background-color: white;
   color: green;
   font-family: Poppins;

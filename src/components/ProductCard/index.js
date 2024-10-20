@@ -41,7 +41,7 @@ const ProductCard = ({ product, onAddToCart }) => {
           className="add-to-cart-btn"
           onClick={() => onAddToCart(product)}
         >
-          - Add to cart +
+          - Add to cart +6
         </button>
         <button className="buy-on-rent-btn">Buy on rent</button>
       </div>

@@ -7,7 +7,6 @@ const ProductCard = ({ product, onAddToCart }) => {
   const handleViewProduct = () => {
     history.push(`/thank-you/${product.id}`, { product });
   };
-
   return (
     <div className="product-card">
       <div className="product-img-div">

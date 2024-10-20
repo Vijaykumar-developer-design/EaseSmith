@@ -1,0 +1,111 @@
+.search-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header-header {
+  padding: 20px;
+}
+.search-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 35%;
+  border-bottom: 2px solid grey;
+}
+.search-icon {
+  font-size: 25px;
+  margin-right: 10px;
+}
+.leaf-icon {
+  height: 25px;
+  width: 25px;
+}
+.input-search {
+  padding: 5px;
+  width: 100%;
+  border: none;
+  outline: none;
+}
+.plants-btn {
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  color: white;
+  width: 114px;
+  height: 37px;
+  flex-shrink: 0;
+  background: #165315;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.pots-btn {
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  color: grey;
+  border: 2px solid grey;
+  width: 114px;
+  height: 37px;
+  flex-shrink: 0;
+  background: white;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.btns-container {
+  margin-top: 15px;
+  /* margin-left: 60px; */
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-content {
+  color: #838383;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 1238px;
+  flex-shrink: 0;
+}
+.nursery {
+  color: #000;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.images-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.container-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 150px;
+}
+.image-container {
+  width: 80px;
+  height: 80px;
+}
+.container-image-text {
+  color: #838383;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}

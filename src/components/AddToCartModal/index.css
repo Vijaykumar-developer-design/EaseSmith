@@ -1,0 +1,74 @@
+.product-picker-modal {
+  position: absolute;
+  top: 50px;
+  right: 0;
+  bottom: 0;
+  width: 30%;
+  height: 500px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+}
+.modal-actions {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.cancel-btn {
+  padding: 5px;
+  width: 120px;
+  border-radius: 4px;
+  opacity: 0px;
+  background-color: white;
+  color: red;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  cursor: pointer;
+  border: 2px solid red;
+}
+.cancel-btn:hover {
+  background-color: red;
+  color: white;
+  border: outset;
+}
+.confirm-btn {
+  padding: 5px;
+  min-width: 120px;
+  border-radius: 4px;
+  opacity: 0px;
+  background-color: white;
+  color: green;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  cursor: pointer;
+  border: 2px solid green;
+}
+.confirm-btn:hover {
+  background-color: green;
+  color: white;
+  border: outset;
+}
+.cancel-x-icon {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.cancel-icon {
+  font-size: 15px;
+}

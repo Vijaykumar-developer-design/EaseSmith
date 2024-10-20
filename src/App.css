@@ -36,3 +36,37 @@
     transform: rotate(360deg);
   }
 }
+/* .top-head {
+  width: 100%;
+  padding: 5px;
+  background: #165315;
+  color: white;
+  display: flex;
+  align-items: center;
+} */
+.top-head {
+  display: flex; /* Use Flexbox layout */
+  justify-content: space-between; /* Space out child elements */
+  align-items: center; /* Align items vertically in the center */
+  padding: 0px;
+  position: relative; /* Position context for pseudo-element */
+  color: white;
+  background-color: #165315;
+  font-family: "Inter";
+}
+
+.first {
+  flex: 1; /* Allow the first element to grow */
+  text-align: center; /* Center the text */
+}
+
+.second {
+  flex: 1; /* Do not allow the second element to grow */
+  text-align: center; /* Align the text to the right */
+}
+
+/* Create a pseudo-element for the empty space */
+.top-head::before {
+  content: ""; /* Empty content */
+  flex: 1; /* Take up remaining space on the left */
+}

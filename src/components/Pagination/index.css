@@ -1,0 +1,36 @@
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.prev-btn {
+  width: 120px;
+  padding: 5px;
+  border-radius: 5px;
+  color: green;
+  border: 2px solid green;
+  font-size: 16px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+.prev-btn:hover {
+  color: blue;
+  border: 2px solid blue;
+}
+.next-btn {
+  width: 120px;
+  padding: 5px;
+  border-radius: 5px;
+  color: green;
+  border: 2px solid green;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+.next-btn:hover {
+  color: blue;
+  border: 2px solid blue;
+}
+.page-info {
+  font-family: "Times New Roman", Times, serif;
+}

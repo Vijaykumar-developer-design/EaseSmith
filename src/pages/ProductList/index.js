@@ -82,6 +82,13 @@ const ProductList = ({ onAddToCart }) => {
         </div>
       </div>
       <div>
+        <div className="sort-by-div">
+          <p>300 products</p>
+          <select className="sort-options">
+            <option>SORTBY</option>
+          </select>
+        </div>
+
         <div className="product-list">
           {currentProducts.map((product) => (
             <ProductCard

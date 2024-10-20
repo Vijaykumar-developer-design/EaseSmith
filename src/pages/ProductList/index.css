@@ -29,3 +29,19 @@
   line-height: 19.36px;
   text-align: left;
 }
+.sort-by-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: 20px;
+  width: 240px;
+  font-weight: 500;
+  color: grey;
+}
+.sort-options {
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+  background-color: green;
+  outline: none;
+}
